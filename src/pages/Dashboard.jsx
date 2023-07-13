@@ -1,6 +1,6 @@
 const Dashboard = () => {
   return (
-    <div className="centered">dashboard</div>
+    <div className="centered">Dashboard</div>
   )
 }
 
