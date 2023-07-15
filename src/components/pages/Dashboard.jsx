@@ -1,6 +1,9 @@
+
 const Dashboard = () => {
   return (
-    <div className="centered">Dashboard</div>
+    <div className="centered">
+      Dashboard
+    </div>
   )
 }
 
