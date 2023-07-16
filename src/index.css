@@ -14,13 +14,6 @@
   -webkit-text-size-adjust: 100%;
 }*/
 
-.centered {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /*a {
   font-weight: 500;
   color: #646cff;

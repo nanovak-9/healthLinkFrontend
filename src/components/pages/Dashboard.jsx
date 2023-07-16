@@ -1,8 +1,9 @@
+import Navbar from "../Navbar"
 
 const Dashboard = () => {
   return (
     <div className="centered">
-      Dashboard
+      <Navbar />
     </div>
   )
 }

@@ -1,0 +1,6 @@
+.navbar-nav{
+    display: inline-flex;
+}
+.nav-item{
+    margin: 2px;
+}
