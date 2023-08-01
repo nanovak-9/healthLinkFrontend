@@ -1,18 +1,23 @@
-import React from 'react'
-import "../src/App.css"
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Navbar from './components/navegation/Navbar' 
-import Dashboard from './components/pages/Dashboard'
-import Login from "./components/pages/Login"
-import Register from "./components/pages/Register"
+import Navbar from "./Navbar"
+import Registro from "./pages/Registro"
+import Home from "./pages/Home"
+import Login from "./pages/Login"
+
+
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-    <div className='App'>
-      <Router>
-        <Navbar />
-      </Router>
-    </div>
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/registro" element={<Registro />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </div>
+    </>
   )
 }
 
